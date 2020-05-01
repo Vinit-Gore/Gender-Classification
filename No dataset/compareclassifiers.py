@@ -15,25 +15,25 @@ accuracy=0
 for x in range(MAX):
     accuracy = accuracy + DT()
 accuracy/=MAX
-print("DT = ",accuracy)
+print("Decision Tree = ",accuracy)
 
 accuracy=0
 for x in range(MAX):
     accuracy = accuracy + RF()
 accuracy/=MAX
-print("RF = ",accuracy)
+print("Random Forest = ",accuracy)
 
 accuracy=0
 for x in range(MAX):
     accuracy = accuracy + NN()
 accuracy/=MAX
-print("NN = ",accuracy)
+print("Nearest Neighbour = ",accuracy)
 
 accuracy=0
 for x in range(MAX):
     accuracy = accuracy + LR()
 accuracy/=MAX
-print("LR = ",accuracy)
+print("Linear Regression = ",accuracy)
 
 # print("I conclude that SVM can work perfectly for smaller training sets while Random Forest"
 # " and Decision Tree do not")
